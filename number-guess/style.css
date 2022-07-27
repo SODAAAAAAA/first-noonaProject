@@ -15,7 +15,7 @@ body {
 }
 
 .bg {
-    background: rgb(203, 252, 105);
+    background: lavender;
     width: calc(60% - 30px);
     height: calc(70% - 30px);
     border-radius: 30px;
@@ -27,7 +27,7 @@ body {
     position: relative;
 }
 
-.inputAnswer {
+#inputAnswer {
     width: 100px;
     height: 50px;
     border: none;
@@ -36,14 +36,18 @@ body {
     font-size: 30px;
 }
 
-.playButton {
-    width: 50px;
+#playButton {
+    position: absolute;
+    left: calc(50% + 60px);
+}
+
+.btn {
+    width: auto;
     height: 50px;
     border: none;
     border-radius: 20px;
-    position: absolute;
-    left: calc(50% + 60px);
     cursor: pointer;
+    padding: 0 15px;
 }
 
 input::-webkit-inner-spin-button {
